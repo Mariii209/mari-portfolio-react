@@ -4,12 +4,12 @@ import "./SiteMenu.css";
 export default function SiteMenu() {
   return (
     <div className="SiteMenu">
-      <h3>Maritza Gutierrez</h3>
-      <ul>
-        <li>Home</li>
-        <li>About Me</li>
-        <li>Projects</li>
-        <li>Contact</li>
+      <h3 className="SiteTitle">Maritza Gutierrez</h3>
+      <ul className="NavList">
+        <li className="NavItem">Home</li>
+        <li className="NavItem">About Me</li>
+        <li className="NavItem">Projects</li>
+        <li className="NavItem">Contact</li>
       </ul>
     </div>
   );

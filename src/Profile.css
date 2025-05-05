@@ -1,0 +1,61 @@
+.Profile {
+  position: relative;
+  width: 350px;
+  height: 550px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fdefe9;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  border-radius: 5px;
+  padding-bottom: 60px;
+}
+
+.Profile img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 30px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.ProfileFooter {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px 0;
+  background-color: white;
+  margin-bottom: 0;
+}
+
+.ProfileFooter li {
+  list-style: none;
+}
+
+.Dash {
+  color: #f3ad88;
+  transform: scaleX(3);
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.Profile h2 {
+  font-weight: 700;
+  margin-top: 15px;
+}
+
+.Profile p {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.ProfileFooter a {
+  color: black;
+  font-size: 18px;
+}

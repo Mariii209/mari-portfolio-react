@@ -5,11 +5,11 @@
   padding: 0 15px;
 }
 
-.SiteMenu ul {
+.SiteMenu .NavList {
   display: flex;
 }
 
-.SiteMenu li {
+.SiteMenu .NavItem {
   list-style: none;
 }
 
