@@ -1,9 +1,14 @@
 import "./App.css";
+import SiteMenu from "./SiteMenu";
+import HomeSection from "./HomeSection";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header"></header>
+      <div className="App-header">
+        <SiteMenu />
+        <HomeSection />
+      </div>
     </div>
   );
 }

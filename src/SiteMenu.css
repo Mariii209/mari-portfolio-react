@@ -1,0 +1,18 @@
+.SiteMenu {
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  padding: 0 15px;
+}
+
+.SiteMenu ul {
+  display: flex;
+}
+
+.SiteMenu li {
+  list-style: none;
+}
+
+.SiteMenu li:not(:first-child) {
+  margin-left: 25px;
+}
