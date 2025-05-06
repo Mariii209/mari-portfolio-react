@@ -2,17 +2,34 @@
   display: flex;
   background-color: white;
   justify-content: space-between;
-  padding: 0 15px;
+  padding: 10px 25px;
+  align-items: center;
 }
 
-.SiteMenu .NavList {
+.SiteMenu .BrandName {
+  margin-bottom: 0;
+}
+
+.SiteMenu .MenuList {
   display: flex;
+  margin-bottom: 0;
+  padding: 0;
 }
 
-.SiteMenu .NavItem {
+.SiteMenu .MenuItem {
   list-style: none;
+}
+
+.SiteMenu .MenuItem .MenuLink.active {
+  color: black;
+  font-weight: bold;
 }
 
 .SiteMenu li:not(:first-child) {
   margin-left: 25px;
+}
+
+.SiteMenu .MenuItem .MenuLink {
+  text-decoration: none;
+  color: gray;
 }
