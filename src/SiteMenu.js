@@ -1,5 +1,6 @@
 import React from "react";
 import "./SiteMenu.css";
+import { NavLink } from "react-router-dom";
 
 export default function SiteMenu() {
   return (
@@ -7,24 +8,24 @@ export default function SiteMenu() {
       <h3 className="BrandName">Maritza Gutierrez</h3>
       <ul className="MenuList">
         <li className="MenuItem">
-          <a href="/" className="MenuLink active">
+          <NavLink to="/" className="MenuLink">
             Home
-          </a>
+          </NavLink>
         </li>
         <li className="MenuItem">
-          <a href="/about" className="MenuLink">
+          <NavLink to="/about" className="MenuLink">
             About Me
-          </a>
+          </NavLink>
         </li>
         <li className="MenuItem">
-          <a href="/projects" className="MenuLink">
+          <NavLink to="/projects" className="MenuLink">
             Projects
-          </a>
+          </NavLink>
         </li>
         <li className="MenuItem">
-          <a href="/contact" className="MenuLink">
+          <NavLink to="/contact" className="MenuLink">
             Contact
-          </a>
+          </NavLink>
         </li>
       </ul>
     </div>

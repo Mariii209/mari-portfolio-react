@@ -1,15 +1,20 @@
 import "./App.css";
-import SiteMenu from "./SiteMenu";
 import HomeSection from "./HomeSection";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import AboutMe from "./AboutMe";
+import Contact from "./Contact";
+import Projects from "./Projects";
 
 function App() {
   return (
-    <div className="App">
-      <div className="App-header">
-        <SiteMenu />
-        <HomeSection />
-      </div>
-    </div>
+    <Router className="App">
+      <Routes className="App-header">
+        <Route path="/" element={<HomeSection />} />
+        <Route path="/about" element={<AboutMe />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/projects" element={<Projects />} />
+      </Routes>
+    </Router>
   );
 }
 
