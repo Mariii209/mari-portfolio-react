@@ -20,14 +20,14 @@ export default function HomeSection() {
               </NavLink>
             </li>
             <li className="IntroNavItem">
-              <a href="/" className="IntroNavLink">
+              <NavLink to="/projects" className="IntroNavLink">
                 Projects
-              </a>
+              </NavLink>
             </li>
             <li className="IntroNavItem">
-              <a href="/" className="IntroNavLink">
+              <NavLink to="/contact" className="IntroNavLink">
                 Contact
-              </a>
+              </NavLink>
             </li>
           </ul>
         </div>
