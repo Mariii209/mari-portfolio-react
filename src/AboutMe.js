@@ -2,6 +2,7 @@ import React from "react";
 import SiteMenu from "./SiteMenu";
 import "./AboutMe.css";
 import Me from "./Me.jpeg";
+import { NavLink } from "react-router-dom";
 
 export default function AboutMe() {
   return (
@@ -26,12 +27,18 @@ export default function AboutMe() {
                 project. My goal is to join a team where I can keep growing and
                 contribute to meaningful work.
               </p>
-              <a href="/">View all projects</a>
+              <NavLink to="/projects" className="ProjectsLink">
+                View all projects
+              </NavLink>
             </div>
           </div>
           <div className="col-md">
             <div className="MeSectionImage">
-              <img src={Me} alt="Maritza Gutierrez" className="img-fluid" />
+              <img
+                src={Me}
+                alt="Maritza Gutierrez"
+                className="img-fluid AboutMeImage"
+              />
             </div>
           </div>
         </div>

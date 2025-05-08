@@ -1,5 +1,42 @@
 .AboutMe {
   margin: 150px auto 0;
-
   max-width: 1300px;
+}
+
+.AboutMe h1 {
+  font-size: 55px;
+  font-weight: 800;
+  margin: 0 10px 22px;
+  text-align: center;
+}
+
+.AboutMe h2 {
+  margin-bottom: 18px;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.AboutMe .ProjectsLink {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  background: #f3ad88;
+  padding: 10px 15px;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  transition: all 700ms ease-in-out;
+  margin: 13px 0 30px;
+}
+
+.MeSectionImage {
+  display: flex;
+  justify-content: center; /* horizontal */
+  align-items: center; /* vertical */
+  height: 100vh;
+}
+
+.AboutMeImage {
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
