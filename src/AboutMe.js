@@ -1,4 +1,5 @@
 import React from "react";
+<<<<<<< Updated upstream
 import SiteMenu from "./SiteMenu";
 import "./AboutMe.css";
 import Me from "./Me.jpeg";
@@ -45,4 +46,9 @@ export default function AboutMe() {
       </div>
     </div>
   );
+=======
+
+export default function AboutMe() {
+  return <div>hello</div>;
+>>>>>>> Stashed changes
 }
