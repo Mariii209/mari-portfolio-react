@@ -1,6 +1,6 @@
 import React from "react";
 import SiteMenu from "./SiteMenu";
-import WeatherApp from "./WeatherApp.jpeg";
+import WeatherApp from "./WeatherApp.jpg";
 import Dictionary from "./Dictionary.jpeg";
 import AI from "./AI.jpeg";
 import Photography from "./Photography.jpeg";
