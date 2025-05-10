@@ -1,0 +1,38 @@
+.Projects .ProjectSection {
+  margin-top: 130px;
+}
+
+.ProjectsHading {
+  margin-bottom: 85px;
+  text-align: center;
+  font-size: 55px;
+  font-weight: bold;
+}
+
+.ProjectInfo {
+  background-color: #fdefe9;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.ProjectInfo:not(:last-child) {
+  margin-right: 20px;
+}
+
+.ProjectInfo .ProjectLinks {
+  text-decoration: none;
+  color: black;
+}
+
+.ProjectName {
+  margin-top: 13px;
+  font-weight: bold;
+  font-size: 23px;
+}
+
+.ProjectRole {
+  margin-bottom: 0;
+}
