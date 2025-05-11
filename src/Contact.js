@@ -1,6 +1,7 @@
 import React from "react";
 import SiteMenu from "./SiteMenu";
 import "./Contact.css";
+import Swal from "sweetalert2";
 
 export default function Contact() {
   const onSubmit = async (event) => {
@@ -22,7 +23,12 @@ export default function Contact() {
     }).then((res) => res.json());
 
     if (res.success) {
-      console.log("Success", res);
+      Swal.fire({
+        title: "Success!",
+        text: "Message sent successfull!",
+        icon: "success",
+        confirmButtonColor: "#F3AD88",
+      });
     }
   };
   return (
