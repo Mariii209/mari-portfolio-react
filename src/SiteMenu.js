@@ -23,7 +23,7 @@ export default function SiteMenu() {
           </NavLink>
         </li>
         <li className="MenuItem">
-          <NavLink to="/contact" className="MenuLink">
+          <NavLink to="/contact" className="MenuLink ">
             Contact
           </NavLink>
         </li>

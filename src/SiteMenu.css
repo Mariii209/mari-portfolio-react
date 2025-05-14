@@ -38,3 +38,39 @@
   text-decoration: none;
   color: gray;
 }
+
+.BurgerMenu {
+  display: none;
+  background-color: red;
+}
+
+.bm-cross-button {
+  background-color: brown;
+}
+
+.SideBar {
+  display: none;
+}
+
+/* Hide .SiteMenu on small screens */
+@media (max-width: 650px) {
+  .MenuItem {
+    display: none;
+  }
+
+  .SideBar {
+    display: block;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 2000;
+    background-color: black;
+  }
+}
+
+/* Show .SiteMenu on larger screens */
+@media (min-width: 651px) {
+  .SideBar {
+    display: none;
+  }
+}
