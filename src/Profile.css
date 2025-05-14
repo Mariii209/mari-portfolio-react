@@ -59,3 +59,20 @@
   color: black;
   font-size: 18px;
 }
+
+@media (max-width: 768px) {
+  .Profile {
+    background-color: #f4dfd4;
+    box-shadow: none;
+  }
+
+  .Profile img {
+    width: 230px;
+    height: 230px;
+  }
+
+  .ProfileFooter {
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+  }
+}

@@ -9,7 +9,7 @@ export default function HomeSection() {
     <div className="HomeSection">
       <SiteMenu />
       <div className="HomeContent">
-        <div>
+        <div className="ProfileContainer">
           <Profile />
         </div>
         <div className="MeetMaritza">

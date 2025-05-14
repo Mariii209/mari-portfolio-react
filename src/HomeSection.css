@@ -44,3 +44,20 @@
   background-color: white;
   color: #f3ad88;
 }
+
+@media (max-width: 768px) {
+  .HomeContent {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .HomeContent {
+    margin-top: 130px;
+  }
+
+  .HomeSection .MeetMaritza {
+    margin-bottom: 40px;
+    max-width: 350px;
+    width: 100%;
+  }
+}
