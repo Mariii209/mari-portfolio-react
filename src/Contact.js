@@ -2,6 +2,7 @@ import React from "react";
 import SiteMenu from "./SiteMenu";
 import "./Contact.css";
 import Swal from "sweetalert2";
+import GetInTouch from "./GetInTouch";
 
 export default function Contact() {
   const onSubmit = async (event) => {
@@ -35,9 +36,9 @@ export default function Contact() {
     <div className="Contact">
       <SiteMenu />
 
+      <GetInTouch />
       <section className="ContactForm">
         <form onSubmit={onSubmit}>
-          <h2>Contact Me</h2>
           <div className="InboxInfo">
             <label>Full Name</label>
             <input
