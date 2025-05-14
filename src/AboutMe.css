@@ -1,10 +1,10 @@
 .AboutMe {
-  margin: 150px auto 0;
+  margin: 120px auto 0;
   max-width: 1300px;
 }
 
 .AboutMe h1 {
-  font-size: 55px;
+  font-size: 45px;
   font-weight: 800;
   margin: 0 10px 22px;
   text-align: center;
@@ -12,7 +12,7 @@
 
 .AboutMe h2 {
   margin-bottom: 18px;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 600;
 }
 
@@ -29,14 +29,31 @@
   margin: 13px 0 30px;
 }
 
-.MeSectionImage {
-  display: flex;
-  justify-content: center; /* horizontal */
-  align-items: center; /* vertical */
-  height: 100vh;
-}
-
 .AboutMeImage {
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 992px) {
+  .AboutMe h2 {
+    text-align: center;
+  }
+
+  .MeSectionDescription p {
+    text-align: center;
+  }
+
+  .ProjectLinkContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .AboutMe .ProjectsLink {
+    text-align: center;
+    padding: 10px 35px;
+  }
 }

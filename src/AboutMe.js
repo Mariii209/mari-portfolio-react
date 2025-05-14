@@ -10,7 +10,7 @@ export default function AboutMe() {
       <SiteMenu />
       <div className="container MeSection">
         <div className="row">
-          <div className="col-md">
+          <div className="col-lg">
             <div className="MeSectionDescription">
               <h1>Hi I am Maritza Gutierrez</h1>
               <h2>Frontend Developer, based in Modesto, California.</h2>
@@ -27,18 +27,16 @@ export default function AboutMe() {
                 project. My goal is to join a team where I can keep growing and
                 contribute to meaningful work.
               </p>
-              <NavLink to="/projects" className="ProjectsLink">
-                View all projects
-              </NavLink>
+              <div className="ProjectLinkContainer">
+                <NavLink to="/projects" className="ProjectsLink">
+                  View all projects
+                </NavLink>
+              </div>
             </div>
           </div>
-          <div className="col-md">
+          <div className="col-lg">
             <div className="MeSectionImage">
-              <img
-                src={Me}
-                alt="Maritza Gutierrez"
-                className="img-fluid AboutMeImage"
-              />
+              <img src={Me} alt="Maritza Gutierrez" className="AboutMeImage" />
             </div>
           </div>
         </div>
