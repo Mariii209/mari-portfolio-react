@@ -35,42 +35,45 @@ export default function Contact() {
   return (
     <div className="Contact">
       <SiteMenu />
-
-      <GetInTouch />
-      <section className="ContactForm">
-        <form onSubmit={onSubmit}>
-          <div className="InboxInfo">
-            <label>Full Name</label>
-            <input
-              type="text"
-              className="Field"
-              placeholder="Enter your name"
-              name="name"
-              required
-            />
-          </div>
-          <div className="InboxInfo">
-            <label>Email Address</label>
-            <input
-              type="email"
-              className="Field"
-              placeholder="Enter your email"
-              name="email"
-              required
-            />
-          </div>
-          <div className="InboxInfo">
-            <label>Your Message</label>
-            <textarea
-              name="message"
-              className="Field Mess"
-              placeholder="Enter your message"
-              required
-            ></textarea>
-          </div>
-          <button type="submit">Send Message</button>
-        </form>
-      </section>
+      <div className="ContactContainer">
+        <div className="GetInContact">
+          <GetInTouch />
+        </div>
+        <section className="ContactForm">
+          <form onSubmit={onSubmit}>
+            <div className="InboxInfo">
+              <label>Full Name</label>
+              <input
+                type="text"
+                className="Field"
+                placeholder="Enter your name"
+                name="name"
+                required
+              />
+            </div>
+            <div className="InboxInfo">
+              <label>Email Address</label>
+              <input
+                type="email"
+                className="Field"
+                placeholder="Enter your email"
+                name="email"
+                required
+              />
+            </div>
+            <div className="InboxInfo">
+              <label>Your Message</label>
+              <textarea
+                name="message"
+                className="Field Mess"
+                placeholder="Enter your message"
+                required
+              ></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+          </form>
+        </section>
+      </div>
     </div>
   );
 }

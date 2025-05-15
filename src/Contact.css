@@ -1,4 +1,4 @@
-.Contact {
+.Contact .ContactContainer {
   max-width: 1000px;
   margin: 0 auto;
   display: flex;
@@ -71,5 +71,21 @@ form button:hover {
   form {
     background-color: #f4dfd4;
     box-shadow: none;
+  }
+}
+@media (max-width: 768px) {
+  .ContactContainer {
+    flex-direction: column;
+  }
+
+  form {
+    width: 280px;
+    background-color: #f4dfd4;
+    padding: 0;
+    box-shadow: none;
+  }
+
+  .ContactForm {
+    margin-top: 40px;
   }
 }
