@@ -1,5 +1,8 @@
 .Projects .ProjectSection {
   margin-top: 130px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .ProjectsHading {
@@ -7,6 +10,10 @@
   text-align: center;
   font-size: 45px;
   font-weight: bold;
+}
+
+.AllProjects {
+  flex: 1;
 }
 
 .ProjectInfo {

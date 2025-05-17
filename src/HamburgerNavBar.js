@@ -23,16 +23,32 @@ export default function HamburgerNavBar() {
 
       <aside className={`Sidebar ${isOpen ? "open" : ""}`}>
         <nav>
-          <NavLink to="/" onClick={() => setIsOpen(false)}>
+          <NavLink
+            to="/"
+            className="SideBarLink"
+            onClick={() => setIsOpen(false)}
+          >
             Home
           </NavLink>
-          <NavLink to="/about" onClick={() => setIsOpen(false)}>
+          <NavLink
+            to="/about"
+            className="SideBarLink"
+            onClick={() => setIsOpen(false)}
+          >
             About Me
           </NavLink>
-          <NavLink to="/projects" onClick={() => setIsOpen(false)}>
+          <NavLink
+            to="/projects"
+            className="SideBarLink"
+            onClick={() => setIsOpen(false)}
+          >
             Projects
           </NavLink>
-          <NavLink to="/contact" onClick={() => setIsOpen(false)}>
+          <NavLink
+            to="/contact"
+            className="SideBarLink"
+            onClick={() => setIsOpen(false)}
+          >
             Contact
           </NavLink>
         </nav>

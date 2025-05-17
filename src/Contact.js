@@ -3,6 +3,7 @@ import SiteMenu from "./SiteMenu";
 import "./Contact.css";
 import Swal from "sweetalert2";
 import GetInTouch from "./GetInTouch";
+import Footer from "./Footer";
 
 export default function Contact() {
   const onSubmit = async (event) => {
@@ -74,6 +75,7 @@ export default function Contact() {
           </form>
         </section>
       </div>
+      <Footer />
     </div>
   );
 }

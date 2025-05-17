@@ -3,13 +3,14 @@ import SiteMenu from "./SiteMenu";
 import "./AboutMe.css";
 import Me from "./Me.jpeg";
 import { NavLink } from "react-router-dom";
+import Footer from "./Footer";
 
 export default function AboutMe() {
   return (
     <div className="AboutMe">
       <SiteMenu />
       <div className="container MeSection">
-        <div className="row">
+        <div className="row AboutMaritza">
           <div className="col-lg">
             <div className="MeSectionDescription">
               <h1>Hi I am Maritza Gutierrez</h1>
@@ -41,6 +42,7 @@ export default function AboutMe() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

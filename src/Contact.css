@@ -1,13 +1,31 @@
+.Contact {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 .Contact .ContactContainer {
+  flex: 1;
   max-width: 1000px;
   margin: 0 auto;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  gap: 120px;
+}
+
+.GetInContact,
+.ContactForm {
+  min-width: 300px;
+}
+
+.GetInContact {
+  margin-left: 20px;
 }
 
 .ContactForm {
   margin-top: 100px;
+  margin-right: 20px;
 }
 
 form {
@@ -87,5 +105,9 @@ form button:hover {
 
   .ContactForm {
     margin-top: 40px;
+  }
+
+  form button {
+    margin-bottom: 30px;
   }
 }

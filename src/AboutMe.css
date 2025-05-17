@@ -3,6 +3,17 @@
   max-width: 1300px;
 }
 
+.MeSection {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.AboutMaritza {
+  flex: 1;
+}
+
 .AboutMe h1 {
   font-size: 45px;
   font-weight: 800;
