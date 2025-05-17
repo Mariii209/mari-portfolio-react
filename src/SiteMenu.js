@@ -1,6 +1,7 @@
 import React from "react";
 import "./SiteMenu.css";
 import { NavLink } from "react-router-dom";
+import HamburgerNavBar from "./HamburgerNavBar";
 
 export default function SiteMenu() {
   return (
@@ -26,6 +27,9 @@ export default function SiteMenu() {
           <NavLink to="/contact" className="MenuLink ">
             Contact
           </NavLink>
+        </li>
+        <li className="HamburgerSection">
+          <HamburgerNavBar />
         </li>
       </ul>
     </div>

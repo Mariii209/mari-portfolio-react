@@ -52,25 +52,17 @@
   display: none;
 }
 
-/* Hide .SiteMenu on small screens */
-@media (max-width: 650px) {
+.HamburgerSection {
+  list-style: none;
+  display: none;
+}
+
+@media (max-width: 678px) {
   .MenuItem {
     display: none;
   }
 
-  .SideBar {
+  .HamburgerSection {
     display: block;
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    z-index: 2000;
-    background-color: black;
-  }
-}
-
-/* Show .SiteMenu on larger screens */
-@media (min-width: 651px) {
-  .SideBar {
-    display: none;
   }
 }
