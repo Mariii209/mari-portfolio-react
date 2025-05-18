@@ -5,7 +5,7 @@
   min-height: 100vh;
 }
 
-.ProjectsHading {
+.ProjectsHedding {
   margin-bottom: 85px;
   text-align: center;
   font-size: 45px;
@@ -42,4 +42,11 @@
 
 .ProjectRole {
   margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .ProjectsHedding {
+    font-size: 35px;
+    margin-bottom: 60px;
+  }
 }

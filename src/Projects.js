@@ -14,7 +14,7 @@ export default function Projects() {
     <div className="Projects">
       <SiteMenu />
       <div className="container ProjectSection">
-        <h1 className="ProjectsHading">What I’ve Been Building</h1>
+        <h1 className="ProjectsHedding">What I’ve Been Building</h1>
         <div className="AllProjects">
           <div className="row">
             <div className="col-md ProjectInfo">

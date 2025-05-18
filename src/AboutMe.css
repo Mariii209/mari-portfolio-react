@@ -68,3 +68,9 @@
     padding: 10px 35px;
   }
 }
+
+@media (max-width: 768px) {
+  .AboutMe h1 {
+    font-size: 35px;
+  }
+}
