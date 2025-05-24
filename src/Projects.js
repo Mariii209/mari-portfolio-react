@@ -87,7 +87,7 @@ export default function Projects() {
             </div>
             <div className="col-md ProjectInfo">
               <a
-                href="https://your-weather-app-link.com"
+                href="https://weather-app-mariii.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
                 className="ProjectLinks"
