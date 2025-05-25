@@ -75,7 +75,7 @@ export default function Projects() {
           <div className="row">
             <div className="col-md ProjectInfo">
               <a
-                href="https://your-dictionary-link.com"
+                href="https://dictionary-mariii.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
                 className="ProjectLinks"
