@@ -61,7 +61,7 @@ export default function Projects() {
             </div>
             <div className="col-md ProjectInfo">
               <a
-                href="https://your-ai-chat-link.com"
+                href="https://mariii-ai-generator-project.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
                 className="ProjectLinks"
