@@ -35,7 +35,7 @@ export default function Projects() {
             </div>
             <div className="col-md ProjectInfo">
               <a
-                href="https://your-recipe-link.com"
+                href="https://food-recipe-collection.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
                 className="ProjectLinks"
