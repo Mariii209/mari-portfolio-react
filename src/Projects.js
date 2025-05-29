@@ -49,7 +49,7 @@ export default function Projects() {
           <div className="row">
             <div className="col-md ProjectInfo">
               <a
-                href="https://your-lisbon-link.com"
+                href="https://marii-lisbon-website.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
                 className="ProjectLinks"
