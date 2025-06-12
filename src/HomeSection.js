@@ -37,17 +37,25 @@ export default function HomeSection() {
       <div className="HomeFooter">
         <ul>
           <li>
-            <a href="/">
+            <a
+              href="https://www.linkedin.com/in/maritza-gutierrez-165618343/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <i className="fa-brands fa-linkedin FooterIcons"></i>
             </a>
           </li>
           <li>
-            <a href="/">
+            <a href="mailto:maritza.gutierrez115@gmail.com" rel="noreferrer">
               <i className="fa-regular fa-envelope FooterIcons"></i>
             </a>
           </li>
           <li>
-            <a href="/">
+            <a
+              href="https://github.com/Mariii209"
+              target="_blank"
+              rel="noreferrer"
+            >
               <i className="fa-brands fa-github FooterIcons"></i>
             </a>
           </li>
